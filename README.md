@@ -26,3 +26,10 @@ This project is composed of multiple services, all of which are containerized us
 ### Styling
 
 For styling and creating a visually appealing and responsive frontend, we use the Semantic UI React library.
+
+### Screenshots
+
+![Alt text](main.PNG)
+![Alt text](balance_sheet_loading.PNG)
+![Alt text](balance_sheet_loaded.PNG)
+![Alt text](de.PNG)
