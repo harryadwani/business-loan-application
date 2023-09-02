@@ -29,7 +29,7 @@ For styling and creating a visually appealing and responsive frontend, we use th
 
 ### Screenshots
 
-![Alt text](main.PNG)
-![Alt text](balance_sheet_loading.PNG)
-![Alt text](balance_sheet_loaded.PNG)
-![Alt text](de.PNG)
+![Alt text](screenshots/main.PNG)
+![Alt text](screenshots/balance_sheet_loading.PNG)
+![Alt text](screenshots/balance_sheet_loaded.PNG)
+![Alt text](screenshots/decision_engine.PNG)
