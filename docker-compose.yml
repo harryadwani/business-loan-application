@@ -1,0 +1,40 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./frontend-loan-app
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    volumes:
+      - ./frontend-loan-app:/app
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend:/app  
+
+  accounting-software:
+    build:
+      context: ./accounting-software
+      dockerfile: Dockerfile.accounting-software
+    ports:
+      - "3002:3002"
+    volumes:
+      - ./accounting-software:/app  
+
+  decision-engine:
+    build:
+      context: ./decision-engine
+      dockerfile: Dockerfile.decision-engine
+    ports:
+      - "3003:3003"
+    volumes:
+      - ./decision-engine:/app 
