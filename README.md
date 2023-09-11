@@ -6,7 +6,13 @@ To get started with this project, follow these simple steps:
 
 1. Navigate to the root directory of the project.
 
-2. Run the following command to launch the application using Docker Compose:
+2. ```cd backend && npm i && cd ..
+   cd frontend-loan-app && npm i && cd ..
+   cd accounting-software && npm i && cd ..
+   cd decision-engine && npm i && cd ..
+   ```
+
+3. Run the following command to launch the application using Docker Compose:
 
    ```bash
    docker-compose up
